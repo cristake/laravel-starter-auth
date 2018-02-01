@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    /**
+     * Show the application admin page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function admin()
+    {
+        return view('admin');
+    }
 }
